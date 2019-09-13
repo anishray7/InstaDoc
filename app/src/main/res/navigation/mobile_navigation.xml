@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="xor.instadoc.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_myaccount"
+        android:name="xor.instadoc.MyAccountFragment"
+        android:label="My Account"
+        tools:layout="@layout/fragment_myaccount" />
+
+
+    <fragment
+        android:id="@+id/nav_medsearch"
+        android:name="xor.instadoc.MedSearchFragment"
+        android:label="Med Search"
+        tools:layout="@layout/fragment_medsearch" />
+
+    <fragment
+        android:id="@+id/nav_medhistory"
+        android:name="xor.instadoc.MedHistoryFragment"
+        android:label="Medical History"
+        tools:layout="@layout/fragment_medhistory" />
+
+    <fragment
+        android:id="@+id/nav_familyconnect"
+        android:name="xor.instadoc.FamilyConnectFragment"
+        android:label="Family Connect"
+        tools:layout="@layout/fragment_familyconnect" />
+
+    <fragment
+        android:id="@+id/nav_mydiet"
+        android:name="xor.instadoc.MyDietFragment"
+        android:label="My Diet"
+        tools:layout="@layout/fragment_mydiet" />
+
+    <fragment
+        android:id="@+id/nav_appointments"
+        android:name="xor.instadoc.AppointmentsFragment"
+        android:label="Appointments"
+        tools:layout="@layout/fragment_appointments" />
+
+    <fragment
+        android:id="@+id/nav_mynurse"
+        android:name="xor.instadoc.MyNurseFragment"
+        android:label="My Nurse"
+        tools:layout="@layout/fragment_mynurse" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="xor.instadoc.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_aboutus"
+        android:name="xor.instadoc.AboutUsFragment"
+        android:label="About Us"
+        tools:layout="@layout/fragment_aboutus" />
+</navigation>

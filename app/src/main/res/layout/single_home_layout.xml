@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/headingImage"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/heart" />
+
+            <TextView
+                android:id="@+id/connectName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#80C9C3"
+                android:text="Treating High Blood Pressure May Slow Cognitive Decline"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/connectInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#A5DDD6"
+                android:paddingBottom="3dp"
+                android:text="Besides higher risk of stroke, heart attack, and other illnesses, research presented at the American Heart Association’s (AHA) Hypertension 2019 Scientific Sessions adds to the growing body of evidence that high blood pressure (hypertension) can also affect a person’s mind as they age."
+                android:textAlignment="center"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

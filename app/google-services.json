@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1014402199374",
+    "firebase_url": "https://instadoc-7826f.firebaseio.com",
+    "project_id": "instadoc-7826f",
+    "storage_bucket": "instadoc-7826f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014402199374:android:de728c9c87fb8e5bc3381f",
+        "android_client_info": {
+          "package_name": "xor.instadoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014402199374-oltuapji3r2flmmok9kn5fgcv109c795.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xor.instadoc",
+            "certificate_hash": "eb4483518e5ccadc887f41a7ab0fa09d124650a8"
+          }
+        },
+        {
+          "client_id": "1014402199374-rk8v6mqre8h83h5h3ds4dpbd9im8i4pa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5gdNn-6RD3264iutKEyOYy-zKXuhAiII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014402199374-rk8v6mqre8h83h5h3ds4dpbd9im8i4pa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
